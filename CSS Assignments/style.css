@@ -70,6 +70,27 @@
     width: 20%;
     height: 200px;
     border: solid 1px #000;
-    float: left;
+    float: right;
 }
-
+@keyframes colorchange {
+    from {background-color: rgb(0, 13, 255);}
+    to {background-color: #09ff00;}
+}
+.anim-box{
+    width:200px;
+    height: 200px;
+    animation-name: colorchange;
+    animation-duration: 5s;
+}
+@keyframes colorchange2 {
+    0%   {background-color: #0000ff;}
+    25%  {background-color: #008000;}
+    50%  {background-color: #ffff00;}
+    100% {background-color: #ff0000;}
+}
+.anim-box2{
+    width:200px;
+    height: 200px;
+    animation-name: colorchange2;
+    animation-duration: 5s;
+}
