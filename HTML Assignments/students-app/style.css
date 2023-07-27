@@ -1,0 +1,76 @@
+h1{
+    font-size: 20px;
+    color: #1667dc;
+}
+label{
+    color: #fff;
+}
+.fName-lbl{
+    font-weight: bold;
+}
+.lName-lbl{
+    font-style: italic;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    align-items: flex-start;
+
+}
+.inputs{
+    flex-direction: row;
+}
+.btn{
+    width:10%;
+    height:20%;
+    background-color: #1667dc;
+    color: #fff;
+}
+body{
+    background-color: hsl(0, 3%, 32%);
+    background-image: url("https://images.pexels.com/photos/326347/pexels-photo-326347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+header{
+    height:10vh;
+    border: solid #fff;
+    background-color: #5e95e4;
+    color: #fff;
+}
+footer{
+    position: fixed;
+    height:10vh;
+    width:100vw;
+    border: solid #fff;
+    background-color: #5e95e4;
+    color: #fff;
+    bottom:0;
+    left:0;
+ 
+}
+.form{
+    height:100%;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+thead,tbody,th,tr,td{
+    border: solid #000;
+    background-color: #261dcd;
+    color: #fff;
+}
+span{
+    font-weight: bold;
+    color: #0e72f0;
+}
+li{
+    font-style: italic;
+    color: #0ef047;
+}
+.space-box{
+    height:20vh;
+}
