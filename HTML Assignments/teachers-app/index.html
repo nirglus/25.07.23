@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <div class="form-div">
+        <h1>50 Class</h1>
+        <h2>Welcome to our website</h2>
+        <form action="">
+            <div class="inputs">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" class="mail-inpt">
+            </div>
+            <div class="inputs">
+                <label for="fullName">Full name:</label>
+                <input type="text" name="fullName" minlength="2" maxlength="30" class="fName-inpt">
+            </div>
+            <div class="inputs">
+                <label for="birthDate">Date of birth:</label>
+                <input type="text" name="birthDate">
+            </div>
+            <div class="inputs">
+                <label for="grade">Grade:</label>
+                <input type="number" name="grade" min="0" max="15" onkeydown="return false">
+            </div>
+            <input type="button" value="Save" class="btn">
+        </form>
+    </div>
+    <div class="table-div">
+        <table>
+            <thead>
+                <th>Full Name</th>
+                <th>Date of birth</th>
+                <th>E-Mail</th>
+            </thead>
+            <tbody>
+                <tr><td>John Johnson</td><td>24/08/1968</td><td>johnyjohns@gmail.com</td></tr>
+                <tr><td>Jeremy Clarkson</td><td>17/09/1960</td><td>jclark@gmail.com</td></tr>
+                <tr><td>Freddie Mercury</td><td>05/02/1948</td><td>fremer@gmail.com</td></tr>
+                <tr><td>Jack Jackson</td><td>08/08/1988</td><td>jacks@gmail.com</td></tr>
+                <tr><td>Moti Luchim</td><td>11/11/1971</td><td>6luchim@gmail.com</td></tr>
+            </tbody>
+        </table>
+        <ul>
+            <li><span>John Johnson</span>
+                <ul>
+                    <li>Physics</li>
+                    <li>Mathematics</li>
+                    <li>Computer Science</li>
+                </ul>
+            </li>
+            <li><span>Jeremy Clarkson</span>
+                <ul>
+                    <li>History</li>
+                    <li>Mechanics</li>
+                    <li>Legacy</li>
+                </ul>
+            </li>
+            <li><span>Freddie Mercury</span>
+                <ul>
+                    <li>Litreature</li>
+                    <li>History</li>
+                    <li>Music</li>
+                </ul>
+            </li>
+            <li><span>Jack Jackson</span>
+                <ul>
+                    <li>Chemistry</li>
+                    <li>Biology</li>
+                    <li>Mathematics</li>
+                </ul>
+            </li>
+            <li><span>Moti Luchim</span>
+                <ul>
+                    <li>Sports</li>
+                    <li>Education</li>
+                    <li>Communication</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="space-div"></div>
+    <footer></footer>
+    
+</body>
+</html>

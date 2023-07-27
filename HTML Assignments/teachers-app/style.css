@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+header{
+    height: 10vh;
+    border: solid #fff;
+    background-color: #4e95e5;
+    color: #fff;
+}
+footer{
+    position: fixed;
+    height: 10vh;
+    width:100%;
+    border: solid #fff;
+    background-color: #4e95e5;
+    color: #fff;
+    bottom:0;
+    left:0;
+}
+.form-div{
+    height: 100%;
+}
+.form-div h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #920898;
+}
+.form-div h2{
+    font-size: 17px;
+    font-style: italic;
+    color: #920898;
+}
+label{
+    font-weight: bold;
+    font-style: italic;
+}
+.mail-inpt, .fName-inpt{
+    width:30%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 60px;
+    height:30px;
+    background-color: #c3158e;
+    color: #fff;
+}
+table,thead,th,tbody,tr,td{
+    border: solid #000;
+}
+table{
+    width:90%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+thead,th,tbody,tr,td{
+    background-color: #ab15c3;
+}
+span{
+    font-style: italic;
+    color:#0e72f0;
+}
+li{
+    font-weight: bold;
+    color: #18b03e; /*Changed color to make it more readable*/
+}
+.space-div{
+    height:10vh;
+}
